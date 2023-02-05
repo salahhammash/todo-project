@@ -1,12 +1,13 @@
  let Name = prompt("Whats Your Name ")
  
- if(Name == null || Name == ""){
-    txt = "Enter Your Name"
+//  if(Name == null || Name == ""){
+//     txt = "Enter Your Name"
 
-}else {
-    // txt = "welcom" +" "+ Name
-} 
-alert (txt)
+// }else {
+//     // txt = "welcom" +" "+ Name
+//     txt = ""
+// } 
+// alert (txt)
 
 
 
@@ -30,10 +31,11 @@ alert (text1)
 let Age = prompt("Enter Your age ")
  if (Age <= 0 || Age == null){
 text2 = "Your age must be more than zero"
- } else{
-    // alert (conf)
+ } 
+ else{
+    text2 =" you can git in"
  }
-alert (text2)
+alert (text2)   
 
 
 
