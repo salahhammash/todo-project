@@ -33,7 +33,7 @@ text2 = "Your age must be more than zero"
  } else{
     // alert (conf)
  }
-alert (text2)
+alert (text2)   
 
 
 
