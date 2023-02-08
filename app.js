@@ -1,17 +1,27 @@
+`use strict`
+
+
  let Name = prompt("Whats Your Name ")
  
-//  if(Name == null || Name == ""){
-//     txt = "Enter Your Name"
+ if(Name == null || Name == ""){
+    txt = "Enter Your Name"
+    prompt("Whats Your Name ")
 
-// }else {
-//     // txt = "welcom" +" "+ Name
-//     txt = ""
-// } 
+}else {
+    // txt = "welcom" +" "+ Name
+    txt = ""
+} 
 // alert (txt)
 
 
 
 let Gender = prompt ("Enter Your Gender (male ,female)")
+// while ( Gender !== male || Gender !== female ){
+
+//     prompt ("Enter Your Gender (male ,female)")
+//     } 
+    
+    
 if (Gender == "male" ){
     
 text1 = "welcome Mr " + Name
@@ -22,7 +32,8 @@ else if (Gender == "female"){
 }
 
 else{
-    text1 = "welcom + you should add your gender"
+    text1 = prompt ("Enter Your Gender again (male ,female )")
+    // "welcom + you should add your gender"
 }
 alert (text1)
 
@@ -53,8 +64,54 @@ alert(conf1)
 
 
 
+
+
+
+
+
+
+
+ let arr =[] ;
+
+let q1 = prompt ("Do you like our page ? \n yes or no")
+
+let q2 = prompt ("Do you like swimming  ? \n yes or no")
+
+let q3 = prompt ("Do you like running 3 ?\n yes or no")
+
+
+const firstAnswer = (y) =>{
+
+    if (y == "yes" || y == "no"){
+        arr.push(y);
+    }else{
+       arr.push("invalid");
+    }
+
+}
+
+
+firstAnswer(q1);
+firstAnswer(q2);
+firstAnswer(q3);
+
+
+const loops = () =>{
+for (let i= 0 ; i < arr.length ; i++){
+
+    console.log( arr[i]);
+}
+
+}
+loops();
  
 
 
 
-// alert(conf1)
+
+
+
+
+
+
+
