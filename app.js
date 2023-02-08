@@ -8,19 +8,15 @@
     prompt("Whats Your Name ")
 
 }else {
-    // txt = "welcom" +" "+ Name
-    txt = ""
+  
+    txt = Name
 } 
 // alert (txt)
 
 
 
 let Gender = prompt ("Enter Your Gender (male ,female)")
-// while ( Gender !== male || Gender !== female ){
-
-//     prompt ("Enter Your Gender (male ,female)")
-//     } 
-    
+   
     
 if (Gender == "male" ){
     
@@ -63,15 +59,11 @@ alert(conf1)
 
 
 
+/* ----------------------06------------------*/
 
 
 
-
-
-
-
-
- let arr =[] ;
+let arr =[] ;
 
 let q1 = prompt ("Do you like our page ? \n yes or no")
 
